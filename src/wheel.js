@@ -1,19 +1,13 @@
-//import logo from './bike.gif';
-import React, { useEffect, useState } from "react";
-
-import Button from './button';
-import Date from './Date';
-
+import logo from './logo.svg';
+import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>
-          How are you going to get to work day?
-        </h1>
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Click on the button and see how you should get there!
+          Edit <code>src/App.js</code> and save to reload.
         </p>
         <a
           className="App-link"
@@ -21,11 +15,8 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-         
+          Learn React
         </a>
-        <Button/>
-        <Date/>
-        
       </header>
     </div>
   );
